@@ -2,7 +2,8 @@
 
 This is an unbeatable game of tic tac toe built using the Minimax algorithm.
 
-Describing Minimax
+Describing Minimax :
+
 The key to the Minimax algorithm is a back and forth between the two players, where the player whose "turn it is" desires to pick the move with the maximum score. In turn, the scores for each of the available moves are determined by the opposing player deciding which of its available moves has the minimum score. And the scores for the opposing players moves are again determined by the turn-taking player trying to maximize its score and so on all the way down the move tree to an end state.
 
 A description for the algorithm, assuming X is the "turn taking player," would look something like:
